@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">معكوس</string>
+    <string name="enter_dim">أدخل بعد المصفوفة من فضلك:</string>
+    <string name="set_mat">"أدخل المصفوفة! "</string>
+    <string name="calculate">احسب!</string>
+    <string name="entr_elements">أدخل عناصر المصفوفة من فضلك:</string>
+    <string name="result">النتيجة:</string>
+    <string name="new_mat">مصفوفة جديدة</string>
+    <string name="invalid_val">القيمة غير صالحة!</string>
+    <string name="an_invalid_val">يوجد قيمة على الأقل غير صالجة!</string>
+    <string name="unique_mat">المصفوفة وحيدة!</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Inverse</string>
+    <string name="enter_dim">Enter matrix dimension please:</string>
+    <string name="set_mat">Set matrix!</string>
+    <string name="calculate">Calculate!</string>
+    <string name="entr_elements">Enter matrix elements please:</string>
+    <string name="result">Result is:</string>
+    <string name="new_mat">New matrix</string>
+    <string name="invalid_val">Invalid value!</string>
+    <string name="an_invalid_val">There is at least an invalid value!</string>
+    <string name="unique_mat">The matrix is singular!</string>
+    <string name="generate">Generate random matrix!</string>
+</resources>

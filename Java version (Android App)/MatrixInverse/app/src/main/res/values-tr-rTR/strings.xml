@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ters</string>
+    <string name="enter_dim">Matrisin boyutunu giriniz lütfen</string>
+    <string name="calculate">Hesapla!</string>
+    <string name="entr_elements">Matrisin elemanlarını giriniz lütfen:</string>
+    <string name="result">Sonuç:</string>
+    <string name="new_mat">Yeni matris</string>
+    <string name="invalid_val">Geçersiz değer!</string>
+    <string name="an_invalid_val">En az bir geçersiz değer var!</string>
+    <string name="unique_mat">Matris tekildir!</string>
+    <string name="set_mat">Matrisi gir!</string>
+</resources>
