@@ -5,6 +5,7 @@ Analysis courses to make it easy to calculate the inverse of a matrix.
 ## Features
 * Matlab version is available to use it for analysis
 * User-friendly Android app is available
+* Multi language support(Arabic, English, Turkish)
 * Singular matrix detection
 * Invalid input preventing
 * Open source :sparkles:
