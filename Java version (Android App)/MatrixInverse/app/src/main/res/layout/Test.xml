@@ -33,12 +33,6 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/set_mat"
-                android:id="@+id/set_mat_but"
-                android:textColor="#454a4f"/>
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/generate"
                 android:textColor="#454a4f"
                 android:id="@+id/generate_but"/>
