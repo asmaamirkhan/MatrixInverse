@@ -3,7 +3,7 @@ clear all; clc;
 % gauss_yontemi(A)
 % % Matlab bu matrisi yanlis hesapliyor!
 % print_matrix(inv(A))
-while(1==1)
+while(1 == 1)
     option = input('1 veya 2 girin:\n1- Rastgele matris olusturulsun\n2- Bir matris girmek istiyorum\n');       
     if(option == 1 || option == 2)
         denk = input('Matris boyutunu girin: ');
@@ -12,21 +12,21 @@ while(1==1)
         fprintf('Yanlis giris!\nTekrar deneyin!\n');
     end
 end
-if(option==1)
-    A=randi(50,denk,denk);
+if(option == 1)
+    A=randi(50, denk, denk);
 else
     A=zeros(denk, denk);
-    for i=1:denk
-        for j=1:denk
-            fprintf('A(%d,%d) = ',i,j);
-            A(i,j)=input('');
+    for i = 1:denk
+        for j = 1:denk
+            fprintf('A(%d,%d) = ', i, j);
+            A(i,j) = input('');
         end
     end
 end
 fprintf('Asil Matris:\n');
 print_matrix(A);
-while(1==1)
-    option=input('Yontem secin:\n1- Gauss yontemi\n2- Kofaktor yontemi\n3- Ikisini denemek istiyorum, bir de Matlab sonucu yazdirilsin\n');
+while(1 == 1)
+    option = input('Yontem secin:\n1- Gauss yontemi\n2- Kofaktor yontemi\n3- Ikisini denemek istiyorum, bir de Matlab sonucu yazdirilsin\n');
     if(option == 1)
         fprintf('Gauss Yontemi:\n');
         gauss_yontemi(A)
