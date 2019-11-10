@@ -57,12 +57,12 @@ public class EnterElements extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 boolean invalid = false;
-                String [][]matrix = new String[dimension][dimension];
-                for(int i=0; i<dimension; i++){
-                    for (int j=0; j<dimension; j++){
-                        matrix[i][j]=mat[i][j].getText().toString();
+                String [][] matrix = new String[dimension][dimension];
+                for(int i = 0; i < dimension; i++){
+                    for (int j = 0; j < dimension; j++){
+                        matrix[i][j] = mat[i][j].getText().toString();
                         if(!isDouble(matrix[i][j]))
-                            invalid=true;
+                            invalid = true;
                     }
                 }
                 if(!invalid) {
@@ -85,16 +85,16 @@ public class EnterElements extends AppCompatActivity {
         param.setGravity(Gravity.CENTER);
         param.rowSpec=GridLayout.spec(row);
         param.columnSpec=GridLayout.spec(col);
-        param.setMargins(3,3,3,3);
+        param.setMargins(3, 3, 3, 3);
         edit.setLayoutParams(param);
     }
     public boolean isDouble(String str){
         if(str.isEmpty())
             return false;
-        if(str.equals(".")||str.charAt(str.length()-1)=='.')
+        if(str.equals(".") || str.charAt(str.length() - 1) == '.')
             return false;
-        for(int i=0; i<str.length(); i++){
-            if( !Character.isDigit(str.charAt(i)) && str.charAt(i)!='.'&&str.charAt(i)!='-' )
+        for(int i = 0; i < str.length(); i++){
+            if( !Character.isDigit(str.charAt(i)) && str.charAt(i) != '.' && str.charAt(i) != '-' )
                 return false;
         }
         if(str.charAt(0)=='-' && Character.isDigit(str.charAt(1))){

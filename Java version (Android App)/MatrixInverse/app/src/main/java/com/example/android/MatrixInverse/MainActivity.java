@@ -80,11 +80,11 @@ public class MainActivity extends AppCompatActivity {
     public boolean isInteger(String str){
         if(str.isEmpty())
             return false;
-        for(int i=0; i<str.length(); i++){
+        for(int i = 0; i < str.length(); i++){
             if( !Character.isDigit(str.charAt(i)) )
                 return false;
         }
-        if(Integer.parseInt(str)<1)
+        if(Integer.parseInt(str) < 1)
             return false;
         return true;
     }
