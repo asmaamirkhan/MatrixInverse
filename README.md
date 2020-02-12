@@ -11,10 +11,8 @@ Analysis courses to make it easy to calculate the inverse of a matrix.
 * ✨ Open source
 
 ## 📷 Screanshots
-<img src="./Java%20version%20(Android%20App)/Screenshots/main.png" 
-width="200"  />
-<img src="./Java%20version%20(Android%20App)/Screenshots/setMatrix.png" 
-width="200"  />
+<img src="./Java%20version%20(Android%20App)/Screenshots/main.png" width="200"  />
+<img src="./Java%20version%20(Android%20App)/Screenshots/setMatrix.png" width="200"  />
 <img src="./Java%20version%20(Android%20App)/Screenshots/result.png" 
 width="200"  />
 <img src="./Java%20version%20(Android%20App)/Screenshots/singular.png" 
