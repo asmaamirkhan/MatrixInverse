@@ -11,7 +11,8 @@ Analysis courses to make it easy to calculate the inverse of a matrix.
 * ✨ Open source
 
 ## 🤹‍♀️ Used Methods
-- ☕ Java version: [Gauss Elimination](https://en.wikipedia.org/wiki/Gaussian_elimination#Finding_the_inverse_of_a_matrix) method
+- ☕ Java version: 
+  - [Gauss Elimination](https://en.wikipedia.org/wiki/Gaussian_elimination#Finding_the_inverse_of_a_matrix) method
 - 📊 Matlab version: 
   - [Gauss Elimination](https://en.wikipedia.org/wiki/Gaussian_elimination#Finding_the_inverse_of_a_matrix)
   - [Cofactors methods](https://www.toppr.com/guides/maths/determinants/adjoint-and-inverse-of-a-matrix/)
